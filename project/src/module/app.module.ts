@@ -12,12 +12,12 @@ import { positionXYModule } from './positionXY.module';
     TypeOrmModule.forRoot(
       {           
         type:'mysql',
-        host:'dair.co.kr',
-        port:3306,
-        username:'dairadmin',
-        password:'!eogksehrflqakstp!',
-        database:'zt_ms',    
-        entities:[User,raw,positionXY],    
+        host:'',
+        port:,
+        username:'',
+        password:'',
+        database:'',    
+        entities:[],    
         synchronize:false,       
       }      
       ),
